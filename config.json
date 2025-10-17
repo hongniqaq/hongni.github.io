@@ -3,4 +3,6 @@
     "subTitle":"代码存档、感想大杂烩",
     "avatarUrl":"https://avatars.githubusercontent.com/u/238457453?u=90a3c0d4922b7368191022c149d5fc4fb95c5ad6&v=4",
     "GMEEK_VERSION":"last"
+
+     "indexStyle": "body { background-image: url('https://www.bjp.org.cn/pcstyle/img/indexBG.png'); background-size: cover; background-attachment: fixed; }"
 }
