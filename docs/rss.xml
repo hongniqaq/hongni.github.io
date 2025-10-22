@@ -1,5 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虹霓QAQ的博客</title><link>https://hongniqaq.github.io/hongni.github.io</link><description>代码存档、感想大杂烩</description><copyright>虹霓QAQ的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/238457453?u=90a3c0d4922b7368191022c149d5fc4fb95c5ad6&amp;v=4</url><title>avatar</title><link>https://hongniqaq.github.io/hongni.github.io</link></image><lastBuildDate>Thu, 16 Oct 2025 10:38:30 +0000</lastBuildDate><managingEditor>虹霓QAQ的博客</managingEditor><ttl>60</ttl><webMaster>虹霓QAQ的博客</webMaster><item><title>无法克隆stable-diffusion-webui的解决方法</title><link>https://hongniqaq.github.io/hongni.github.io/post/wu-fa-ke-long-stable-diffusion-webui-de-jie-jue-fang-fa.html</link><description>Failed to connect to 127.0.0.1 port 7890 after 2003 ms: Couldn't connect to server '
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虹霓QAQ的博客</title><link>https://hongniqaq.github.io/hongni.github.io</link><description>代码存档、感想大杂烩</description><copyright>虹霓QAQ的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/238457453?u=90a3c0d4922b7368191022c149d5fc4fb95c5ad6&amp;v=4</url><title>avatar</title><link>https://hongniqaq.github.io/hongni.github.io</link></image><lastBuildDate>Wed, 22 Oct 2025 04:01:15 +0000</lastBuildDate><managingEditor>虹霓QAQ的博客</managingEditor><ttl>60</ttl><webMaster>虹霓QAQ的博客</webMaster><item><title>docker desktop新建容器超时</title><link>https://hongniqaq.github.io/hongni.github.io/post/docker%20desktop-xin-jian-rong-qi-chao-shi.html</link><description>**报错：**
+FROM python:3
+python:3: failed to resolve source metadata for docker.io/library/python:3: unexpected status from HEAD request to https://docker.nju.edu.cn/v2/library/python/manifests/3?ns=docker.io: 403 Forbidden
+
+解决方法：
+
+1. 打开Docker Desktop 
+2. 打开 'Settings' 
+
+&lt;img width='1270' height='720' alt='Image' src='https://github.com/user-attachments/assets/83f0ea9d-e5bf-48d8-af12-cc1d0465bad7' /&gt;
+
+3. 进入 'Docker Engine' 选项卡
+
+&lt;img width='1238' height='595' alt='Image' src='https://github.com/user-attachments/assets/bcb41908-d1ee-4153-abd1-566ed3fe7b83' /&gt;
+
+4. 在配置文件中添加以下内容：
+  'registry-mirrors': [
+    'https://docker.registry.cyou/',
+    'https://docker-cf.registry.cyou/',
+    'https://dockercf.jsdelivr.fyi/',
+    'https://docker.jsdelivr.fyi/',
+    'https://dockertest.jsdelivr.fyi/',
+    'https://mirror.aliyuncs.com/',
+    'https://dockerproxy.com/',
+    'https://mirror.baidubce.com/',
+    'https://docker.m.daocloud.io/',
+    'https://docker.nju.edu.cn/',
+    'https://docker.mirrors.sjtug.sjtu.edu.cn/',
+    'https://docker.mirrors.ustc.edu.cn/',
+    'https://mirror.iscas.ac.cn/',
+    'https://docker.rainbond.cc/',
+    'https://jq794zz5.mirror.aliyuncs.com'
+  ]
+5.点击 'Apply &amp; Restart'。</description><guid isPermaLink="true">https://hongniqaq.github.io/hongni.github.io/post/docker%20desktop-xin-jian-rong-qi-chao-shi.html</guid><pubDate>Wed, 22 Oct 2025 04:00:42 +0000</pubDate></item><item><title>无法克隆stable-diffusion-webui的解决方法</title><link>https://hongniqaq.github.io/hongni.github.io/post/wu-fa-ke-long-stable-diffusion-webui-de-jie-jue-fang-fa.html</link><description>Failed to connect to 127.0.0.1 port 7890 after 2003 ms: Couldn't connect to server '
 
 给想进行自行安装的朋友，如果遇到这个问题，可以优先检查自己上网工具的端口
 
