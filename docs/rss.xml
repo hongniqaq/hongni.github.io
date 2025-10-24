@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虹霓QAQ的博客</title><link>https://hongniqaq.github.io/hongni.github.io</link><description>代码存档、感想大杂烩</description><copyright>虹霓QAQ的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/238457453?u=90a3c0d4922b7368191022c149d5fc4fb95c5ad6&amp;v=4</url><title>avatar</title><link>https://hongniqaq.github.io/hongni.github.io</link></image><lastBuildDate>Fri, 24 Oct 2025 02:50:32 +0000</lastBuildDate><managingEditor>虹霓QAQ的博客</managingEditor><ttl>60</ttl><webMaster>虹霓QAQ的博客</webMaster><item><title>2025 Pycharm 专业版安装永久激活教程【留档收藏用】</title><link>https://hongniqaq.github.io/hongni.github.io/post/2025%20Pycharm%20-zhuan-ye-ban-an-zhuang-yong-jiu-ji-huo-jiao-cheng-%E3%80%90-liu-dang-shou-cang-yong-%E3%80%91.html</link><description>**### 如果之前已经安装过Pycharm的一定要完全卸载干净！！！**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虹霓QAQ的博客</title><link>https://hongniqaq.github.io/hongni.github.io</link><description>代码存档、感想大杂烩</description><copyright>虹霓QAQ的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/238457453?u=90a3c0d4922b7368191022c149d5fc4fb95c5ad6&amp;v=4</url><title>avatar</title><link>https://hongniqaq.github.io/hongni.github.io</link></image><lastBuildDate>Fri, 24 Oct 2025 06:23:58 +0000</lastBuildDate><managingEditor>虹霓QAQ的博客</managingEditor><ttl>60</ttl><webMaster>虹霓QAQ的博客</webMaster><item><title>2025 Pycharm 专业版安装永久激活教程【留档收藏用】</title><link>https://hongniqaq.github.io/hongni.github.io/post/2025%20Pycharm%20-zhuan-ye-ban-an-zhuang-yong-jiu-ji-huo-jiao-cheng-%E3%80%90-liu-dang-shou-cang-yong-%E3%80%91.html</link><description>**### 如果之前已经安装过Pycharm的一定要完全卸载干净！！！**
 在控制面板卸载后，还要删除Pycharm留下的其他数据 
 **1.删除[本地缓存]**
 删除用户目录下的jetbrains缓存，一般在AppData目录下，如图所示
@@ -27,7 +27,7 @@ Win+R输入regedit，打开注册表，删除如下目录jetbrains文件夹
 来源：https://zhuanlan.zhihu.com/p/1922794319829508172
 
 
-_仅留档收藏用，如有侵权请联系删除_
+_仅供留档收藏用，如有侵权请联系删除_
 。</description><guid isPermaLink="true">https://hongniqaq.github.io/hongni.github.io/post/2025%20Pycharm%20-zhuan-ye-ban-an-zhuang-yong-jiu-ji-huo-jiao-cheng-%E3%80%90-liu-dang-shou-cang-yong-%E3%80%91.html</guid><pubDate>Fri, 24 Oct 2025 02:47:54 +0000</pubDate></item><item><title>docker desktop新建容器超时</title><link>https://hongniqaq.github.io/hongni.github.io/post/docker%20desktop-xin-jian-rong-qi-chao-shi.html</link><description>**报错：**
 FROM python:3
 python:3: failed to resolve source metadata for docker.io/library/python:3: unexpected status from HEAD request to https://docker.nju.edu.cn/v2/library/python/manifests/3?ns=docker.io: 403 Forbidden
