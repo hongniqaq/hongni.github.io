@@ -14,4 +14,3 @@ iterrows() 是 pandas 中用于逐行迭代 DataFrame 的方法。每次迭代�
     df.at[index, 'Age'] = row['Age'] + 1`
 
 直接定位到原始 df 的特定单元格进行修改
-items()返回结果是类型是dict_items，可以转换为列表list()再进行下一步计算
