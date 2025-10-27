@@ -83,7 +83,9 @@ Name  Age      City<br>
 0    Alice   25  New York<br>
 1      Bob   30    London<br>
 2  Charlie   35     Tokyo<br>
-<code class="notranslate">for index, row in df.iterrows(): # 直接定位到原始 df 的特定单元格进行修改 df.at[index, 'Age'] = row['Age'] + 1</code></p></div>
+<code class="notranslate">for index, row in df.iterrows(): df.at[index, 'Age'] = row['Age'] + 1</code></p>
+<p>直接定位到原始 df 的特定单元格进行修改<br>
+items()返回结果是类型是dict_items，可以转换为列表list()再进行下一步计算</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
